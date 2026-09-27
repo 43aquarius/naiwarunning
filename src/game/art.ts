@@ -326,7 +326,7 @@ export function surface(color: number, kind: TextureKind = 'plaster') {
       m.bumpMap = t;
       m.bumpScale = kind === 'roof' ? 0.019 : 0.009;
     }
-    surfaceCache.set(key, paint(m, kind));
+    surfaceCache.set(key, paint(m, kind) as THREE.MeshStandardMaterial);
   }
   return m;
 }
