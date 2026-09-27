@@ -42,3 +42,6 @@ agent-ctx/
 *.pem
 .idea/
 .vscode/
+
+# 导出工作目录（已作为独立分支推送到 naiwa 仓库）
+export/
