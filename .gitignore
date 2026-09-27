@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build output
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# env & secrets
+.env
+.env.*
+
+# logs
+*.log
+
+# database
+db/
+*.db
+
+# workspace / platform artifacts (开发环境专有，不属于游戏项目)
+.zscripts/
+Caddyfile
+skills/
+upload/
+download/
+tool-results/
+backup/
+examples/
+tests/
+mini-services/
+prisma/
+worklog.md
+agent-ctx/
+
+# misc
+.DS_Store
+*.pem
+.idea/
+.vscode/
